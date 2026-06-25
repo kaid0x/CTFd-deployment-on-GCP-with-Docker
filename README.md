@@ -1,4 +1,4 @@
-# CTFd on GCP — WSH'26 CTF Infrastructure
+# CTFd on GCP — WSH'26 (intraschool) CTF Infrastructure
 
 > How I deployed a production-ready CTF platform for **Westminster School Hackathon 2026 (WSH'26)** — a 30-participant intraschool CTF & Hackathon event — using CTFd, Docker, and Google Cloud Platform.
 
