@@ -51,6 +51,18 @@ Region: asia-south1 (Mumbai)
 
 ---
 
+## Files in this repo
+
+| File | What it is |
+|---|---|
+| `docker-compose.yml` | The compose file used for the event: CTFd 3.8.5's default stack (CTFd, Nginx, MariaDB, Redis) running the prebuilt `ctfd/ctfd:latest` image. Database passwords come from `.env` |
+| `.env.example` | Copy to `.env` and set real database passwords |
+| `conf/nginx/http.conf` | CTFd's stock Nginx reverse-proxy config, unchanged |
+
+`docker-compose.yml` and `conf/nginx/http.conf` come from [CTFd](https://github.com/CTFd/CTFd) (Apache-2.0). To run it, clone CTFd, then copy these files over the ones in the CTFd folder (the compose file mounts CTFd's source read-only).
+
+---
+
 ## Prerequisites
 
 - Google Cloud account with billing enabled
