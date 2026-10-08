@@ -131,7 +131,7 @@ environment:
 docker-compose up -d
 ```
 
-CTFd will be accessible at `http://34.93.167.112`.
+CTFd will be accessible at `http://YOUR_VM_IP`.
 
 ### 7. Open Firewall Rules for Challenge Containers
 
